@@ -16,8 +16,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> SHARD_OF_TRUE_SIGHT = ITEMS.register("shard_of_true_sight",
             () -> new Item(new Item.Properties()
-                    .rarity(Rarity.RARE)
-                    .stacksTo(64))
+                    .rarity(Rarity.RARE))
     );
 
     public static final RegistryObject<Item> ORACLE_OF_TRUE_SIGHT = ITEMS.register("oracle_of_true_sight",
@@ -33,4 +32,10 @@ public class ItemInit {
                     .rarity(Rarity.EPIC)
                     .stacksTo(1))
     );
+
+    public static final RegistryObject<Item> EXPERIENCE_SHARD = ITEMS.register("experience_shard",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.RARE))
+    );
 }
+

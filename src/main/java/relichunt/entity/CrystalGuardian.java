@@ -75,7 +75,7 @@ public class CrystalGuardian extends PathfinderMob implements NeutralMob {
     }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return Pig.createAttributes().add(Attributes.ATTACK_DAMAGE, 2.0f).add(Attributes.MAX_HEALTH, 40f);
+        return Pig.createAttributes().add(Attributes.ATTACK_DAMAGE, 6.0f).add(Attributes.MAX_HEALTH, 40f);
     }
 
     public void setAngerBlockBrokenBy(Player newAngerBlockBrokenBy) {angerBlockBrokenBy = newAngerBlockBrokenBy;}
