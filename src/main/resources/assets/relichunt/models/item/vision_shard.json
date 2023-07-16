@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "relichunt:item/shard_of_true_sight"
+    "layer0": "relichunt:item/vision_shard"
   }
 }

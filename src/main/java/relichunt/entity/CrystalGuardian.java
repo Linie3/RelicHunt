@@ -117,7 +117,7 @@ public class CrystalGuardian extends PathfinderMob implements NeutralMob {
         public void stop() {
             //System.out.println("Stopped!");
             if (getInventory().getItem(0).getItem() == getSearchedItem()) {
-                throwTowardsLastInteractionPlayer(ItemInit.SHARD_OF_TRUE_SIGHT.get().getDefaultInstance());
+                throwTowardsLastInteractionPlayer(ItemInit.VISION_SHARD.get().getDefaultInstance());
                 getInventory().clearContent();
             } else {
                 throwOutInventory();

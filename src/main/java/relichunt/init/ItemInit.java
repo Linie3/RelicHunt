@@ -14,7 +14,7 @@ import relichunt.entity.CrystalGuardian;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RelicHunt.MODID);
 
-    public static final RegistryObject<Item> SHARD_OF_TRUE_SIGHT = ITEMS.register("shard_of_true_sight",
+    public static final RegistryObject<Item> VISION_SHARD = ITEMS.register("vision_shard",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
     );
