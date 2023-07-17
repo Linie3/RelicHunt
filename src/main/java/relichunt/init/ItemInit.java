@@ -33,6 +33,13 @@ public class ItemInit {
                     .stacksTo(1))
     );
 
+    public static final RegistryObject<Item> HEART_OF_RESILIENCE = ITEMS.register("heart_of_resilience",
+            () -> new Item(new Item.Properties()
+                    .fireResistant()
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1))
+    );
+
     public static final RegistryObject<Item> EXPERIENCE_SHARD = ITEMS.register("experience_shard",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
