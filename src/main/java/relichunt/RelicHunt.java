@@ -1,5 +1,6 @@
 package relichunt;
 
+import net.minecraft.advancements.Advancement;
 import net.minecraft.world.entity.EntityEvent;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraftforge.common.MinecraftForge;
