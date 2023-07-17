@@ -37,5 +37,10 @@ public class ItemInit {
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
     );
+
+    public static final RegistryObject<Item> ESSENCE_OF_TOUGHNESS = ITEMS.register("essence_of_toughness",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.RARE))
+    );
 }
 
