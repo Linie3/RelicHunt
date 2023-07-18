@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "has_essence": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "relichunt:relichunt_essences"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "relichunt:textures/block/extractor.png",
+    "description": {
+      "text": "What will be uncovered about the Ancient powers?"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "relichunt:vision_shard"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The essence of Everything"
+    }
+  },
+  "requirements": [
+    [
+      "has_essence"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
