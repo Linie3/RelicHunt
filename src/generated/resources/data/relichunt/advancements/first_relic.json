@@ -1,0 +1,36 @@
+{
+  "parent": "relichunt:first_essence",
+  "criteria": {
+    "has_relic": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "relichunt:relichunt_relics"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Aquire your first relic"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "relichunt:oracle_of_true_sight"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Remnants of the Ancients"
+    }
+  },
+  "requirements": [
+    [
+      "has_relic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

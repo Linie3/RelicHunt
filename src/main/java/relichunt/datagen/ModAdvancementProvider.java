@@ -30,6 +30,15 @@ public class ModAdvancementProvider implements ForgeAdvancementProvider.Advancem
                         new ResourceLocation(RelicHunt.MODID, "textures/block/extractor.png"), FrameType.TASK,
                         true, true, false))
                 .addCriterion("has_essence", InventoryChangeTrigger.TriggerInstance.hasItems(ItemPredicate.Builder.item().of(ModTags.Items.RELICHUNT_ESSENCES).build()))
-                .save(saver, new ResourceLocation(RelicHunt.MODID, "relichunt"), existingFileHelper);
+                .save(saver, new ResourceLocation(RelicHunt.MODID, "first_essence"), existingFileHelper);
+
+        Advancement firstRelic = Advancement.Builder.advancement()
+                .display(new DisplayInfo(new ItemStack(ItemInit.ORACLE_OF_TRUE_SIGHT.get()),
+                        Component.literal("Remnants of the Ancients"), Component.literal("Aquire your first relic"),
+                        null, FrameType.TASK,
+                        true, true, false))
+                .parent(rootAdvancement)
+                .addCriterion("has_relic", InventoryChangeTrigger.TriggerInstance.hasItems(ItemPredicate.Builder.item().of(ModTags.Items.RELICHUNT_RELICS).build()))
+                .save(saver, new ResourceLocation(RelicHunt.MODID, "first_relic"), existingFileHelper);
     }
 }
