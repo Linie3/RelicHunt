@@ -1,22 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "WEW",
-    "ESE",
-    "WEW"
-  ],
+  "category": "misc",
   "key": {
-    "W": {
-      "tag": "minecraft:wool"
-    },
     "E": {
       "item": "minecraft:echo_shard"
     },
     "S": {
       "item": "minecraft:sculk_sensor"
+    },
+    "W": {
+      "tag": "minecraft:wool"
     }
   },
+  "pattern": [
+    "WEW",
+    "ESE",
+    "WEW"
+  ],
   "result": {
     "item": "relichunt:necklace_of_silence"
-  }
+  },
+  "show_notification": true
 }

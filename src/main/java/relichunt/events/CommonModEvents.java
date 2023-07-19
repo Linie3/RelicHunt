@@ -37,22 +37,4 @@ public class CommonModEvents {
                 CrystalGuardian::canSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR);
     }
-
-
-    /*
-    @SubscribeEvent
-    public static void addCustomTrades(VillagerTradesEvent event) {
-
-        if (event.getType() == VillagerProfession.ARMORER) {
-            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(Items.CHAINMAIL_CHESTPLATE, 1),
-                    new ItemStack(ItemInit.VISION_SHARD.get()),
-                    3,
-                    6,
-                    0.06f
-            ));
-        }
-    }
-    */
 }

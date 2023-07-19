@@ -14,7 +14,7 @@ import relichunt.entity.CrystalGuardian;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RelicHunt.MODID);
 
-    public static final RegistryObject<Item> VISION_SHARD = ITEMS.register("vision_shard",
+    public static final RegistryObject<Item> ESSENCE_OF_SIGHT = ITEMS.register("essence_of_sight",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
     );
@@ -33,19 +33,31 @@ public class ItemInit {
                     .stacksTo(1))
     );
 
-    public static final RegistryObject<Item> HEART_OF_RESILIENCE = ITEMS.register("heart_of_resilience",
+    public static final RegistryObject<Item> SHIELD_OF_RESILIENCE = ITEMS.register("shield_of_resilience",
             () -> new Item(new Item.Properties()
                     .fireResistant()
                     .rarity(Rarity.EPIC)
                     .stacksTo(1))
     );
 
-    public static final RegistryObject<Item> EXPERIENCE_SHARD = ITEMS.register("experience_shard",
+    public static final RegistryObject<Item> HEART_OF_VIVIDNESS = ITEMS.register("heart_of_vividness",
+            () -> new Item(new Item.Properties()
+                    .fireResistant()
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1))
+    );
+
+    public static final RegistryObject<Item> ESSENCE_OF_EXPERIENCE = ITEMS.register("essence_of_experience",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
     );
 
     public static final RegistryObject<Item> ESSENCE_OF_TOUGHNESS = ITEMS.register("essence_of_toughness",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.RARE))
+    );
+
+    public static final RegistryObject<Item> ESSENCE_OF_VITALITY = ITEMS.register("essence_of_vitality",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.RARE))
     );

@@ -23,10 +23,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         // Add Item Tags here
         this.tag(ModTags.Items.RELICHUNT_ESSENCES)
-                .add(Items.ECHO_SHARD).add(ItemInit.VISION_SHARD.get()).add(ItemInit.EXPERIENCE_SHARD.get()).add(ItemInit.ESSENCE_OF_TOUGHNESS.get());
+                .add(Items.ECHO_SHARD).add(ItemInit.ESSENCE_OF_SIGHT.get()).add(ItemInit.ESSENCE_OF_EXPERIENCE.get()).add(ItemInit.ESSENCE_OF_TOUGHNESS.get());
 
         this.tag(ModTags.Items.RELICHUNT_RELICS)
-                .add(ItemInit.HEART_OF_RESILIENCE.get()).add(ItemInit.NECKLACE_OF_SILENCE.get()).add(ItemInit.ORACLE_OF_TRUE_SIGHT.get());
+                .add(ItemInit.SHIELD_OF_RESILIENCE.get()).add(ItemInit.NECKLACE_OF_SILENCE.get()).add(ItemInit.ORACLE_OF_TRUE_SIGHT.get());
     }
 
     @Override

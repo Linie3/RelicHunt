@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "relichunt:oracle_of_true_sight"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vision": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "relichunt:essence_of_sight"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vision",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "relichunt:oracle_of_true_sight"
+    ]
+  },
+  "sends_telemetry_event": false
+}

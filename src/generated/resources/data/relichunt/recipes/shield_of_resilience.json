@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "relichunt:essence_of_toughness"
+    }
+  },
+  "pattern": [
+    "ITI",
+    "TDT",
+    "ITI"
+  ],
+  "result": {
+    "item": "relichunt:shield_of_resilience"
+  },
+  "show_notification": true
+}

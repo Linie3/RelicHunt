@@ -1,8 +1,8 @@
 {
   "values": [
     "minecraft:echo_shard",
-    "relichunt:vision_shard",
-    "relichunt:experience_shard",
+    "relichunt:essence_of_sight",
+    "relichunt:essence_of_experience",
     "relichunt:essence_of_toughness"
   ]
 }

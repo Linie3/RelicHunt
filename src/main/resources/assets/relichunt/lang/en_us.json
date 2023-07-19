@@ -1,10 +1,12 @@
 {
   "entity.relichunt.crystal_guardian": "Crystal Guardian",
-  "item.relichunt.vision_shard": "Vision Shard",
+  "item.relichunt.essence_of_sight": "Essence of Sight",
   "item.relichunt.oracle_of_true_sight": "Oracle of True Sight",
   "item.relichunt.necklace_of_silence": "Necklace of Silence",
-  "item.relichunt.experience_shard": "Experience Shard",
+  "item.relichunt.essence_of_experience": "Essence of Experience",
   "block.relichunt.extractor": "Extractor",
   "item.relichunt.essence_of_toughness": "Essence of Toughness",
-  "item.relichunt.heart_of_resilience": "Heart of Resilience"
+  "item.relichunt.shield_of_resilience": "Shield of Resilience",
+  "item.relichunt.essence_of_vitality": "Essence of Vitality",
+  "item.relichunt.heart_of_vividness": "Heart of Vividness"
 }

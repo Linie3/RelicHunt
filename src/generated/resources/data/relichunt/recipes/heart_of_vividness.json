@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "V": {
+      "item": "relichunt:essence_of_vitality"
+    }
+  },
+  "pattern": [
+    "GVG",
+    "VAV",
+    "GVG"
+  ],
+  "result": {
+    "item": "relichunt:heart_of_vividness"
+  },
+  "show_notification": true
+}

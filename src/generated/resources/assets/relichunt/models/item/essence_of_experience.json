@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "relichunt:item/heart_of_resilience"
+    "layer0": "relichunt:item/essence_of_experience"
   }
 }

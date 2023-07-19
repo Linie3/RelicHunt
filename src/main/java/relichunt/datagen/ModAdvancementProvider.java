@@ -25,7 +25,7 @@ public class ModAdvancementProvider implements ForgeAdvancementProvider.Advancem
     @Override
     public void generate(HolderLookup.Provider registries, Consumer<Advancement> saver, ExistingFileHelper existingFileHelper) {
         Advancement rootAdvancement = Advancement.Builder.advancement()
-                .display(new DisplayInfo(new ItemStack(ItemInit.VISION_SHARD.get()),
+                .display(new DisplayInfo(new ItemStack(ItemInit.ESSENCE_OF_SIGHT.get()),
                         Component.literal("The essence of Everything"), Component.literal("What will be uncovered about the Ancient powers?"),
                         new ResourceLocation(RelicHunt.MODID, "textures/block/extractor.png"), FrameType.TASK,
                         true, true, false))

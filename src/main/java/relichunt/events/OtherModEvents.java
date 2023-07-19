@@ -6,6 +6,7 @@ import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -48,6 +49,24 @@ public class OtherModEvents {
                     new ItemStack(ItemInit.ESSENCE_OF_TOUGHNESS.get()),
                     maxUses,
                     6,
+                    0.06f
+            ));
+        }
+
+        if (event.getType() == VillagerProfession.CLERIC) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.GOLDEN_APPLE, 2),
+                    new ItemStack(ItemInit.ESSENCE_OF_VITALITY.get()),
+                    2,
+                    6,
+                    0.06f
+            ));
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.ENCHANTED_GOLDEN_APPLE, 1),
+                    new ItemStack(ItemInit.ESSENCE_OF_VITALITY.get(), 4),
+                    1,
+                    20,
                     0.06f
             ));
         }

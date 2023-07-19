@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "relichunt:item/experience_shard"
+    "layer0": "relichunt:item/shield_of_resilience"
   }
 }

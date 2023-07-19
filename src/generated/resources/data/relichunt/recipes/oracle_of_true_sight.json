@@ -1,22 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "relichunt:essence_of_sight"
+    }
+  },
   "pattern": [
     "CSC",
     "SDS",
     "CSC"
   ],
-  "key": {
-    "C": {
-      "item": "minecraft:copper_ingot"
-    },
-    "S": {
-      "item": "relichunt:vision_shard"
-    },
-    "D": {
-      "item": "minecraft:diamond"
-    }
-  },
   "result": {
     "item": "relichunt:oracle_of_true_sight"
-  }
+  },
+  "show_notification": true
 }
