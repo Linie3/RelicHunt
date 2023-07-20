@@ -23,7 +23,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.ORACLE_OF_TRUE_SIGHT.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.ORACLE_OF_TRUE_VISION.get())
                 .pattern("CSC")
                 .pattern("SDS")
                 .pattern("CSC")

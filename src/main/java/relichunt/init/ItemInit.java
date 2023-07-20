@@ -19,7 +19,7 @@ public class ItemInit {
                     .rarity(Rarity.RARE))
     );
 
-    public static final RegistryObject<Item> ORACLE_OF_TRUE_SIGHT = ITEMS.register("oracle_of_true_sight",
+    public static final RegistryObject<Item> ORACLE_OF_TRUE_VISION = ITEMS.register("oracle_of_true_vision",
             () -> new Item(new Item.Properties()
                     .fireResistant()
                     .rarity(Rarity.EPIC)

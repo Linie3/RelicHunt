@@ -12,6 +12,7 @@ import relichunt.entity.CrystalGuardian;
 import relichunt.init.BlockInit;
 import relichunt.init.EntityInit;
 import relichunt.init.ItemInit;
+import relichunt.init.ModCreativeModeTabs;
 
 @Mod(RelicHunt.MODID)
 public class RelicHunt {
@@ -25,6 +26,7 @@ public class RelicHunt {
         EntityInit.ENTITIES.register(bus);
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        ModCreativeModeTabs.register(bus);
     }
 
     public static void registerEntityToForgeBus(PathfinderMob mob) {

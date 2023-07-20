@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "relichunt:oracle_of_true_sight"
+        "recipe": "relichunt:oracle_of_true_vision"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "relichunt:oracle_of_true_sight"
+      "relichunt:oracle_of_true_vision"
     ]
   },
   "sends_telemetry_event": false

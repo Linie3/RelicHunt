@@ -1,9 +1,9 @@
-// 1.20.1	2023-07-19T16:44:00.4571942	Recipes
+// 1.20.1	2023-07-20T09:28:54.6990276	Recipes
 3754469f699cbae2bd0c217d848a9a3ef9757147 data/relichunt/advancements/recipes/misc/heart_of_vividness.json
 3ca5c21b76a4e94984b333c7e088650a191adfc5 data/relichunt/advancements/recipes/misc/necklace_of_silence.json
-47821463a7f3bef44d1ccb0c9ba8b45d3b085e50 data/relichunt/advancements/recipes/misc/oracle_of_true_sight.json
+bb556940392c222982ece63193fb79f46c496fe9 data/relichunt/advancements/recipes/misc/oracle_of_true_vision.json
 85b3306ec0793d7b432271a153cad8be80fd1da9 data/relichunt/advancements/recipes/misc/shield_of_resilience.json
 37f766be0cee9cc2e9c5b3def4543e2d698e66cf data/relichunt/recipes/heart_of_vividness.json
 b5635f08024566eb63c42ff2e754ac97d69daf88 data/relichunt/recipes/necklace_of_silence.json
-306eefcf5dc6036301d698a5539065c318cf6c25 data/relichunt/recipes/oracle_of_true_sight.json
+e3ddd86f861506f744c9d20b92fe2e51b1712450 data/relichunt/recipes/oracle_of_true_vision.json
 08657c887aef6d4ae66cce0efe0d4364af35356c data/relichunt/recipes/shield_of_resilience.json

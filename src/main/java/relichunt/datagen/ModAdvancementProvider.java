@@ -33,7 +33,7 @@ public class ModAdvancementProvider implements ForgeAdvancementProvider.Advancem
                 .save(saver, new ResourceLocation(RelicHunt.MODID, "first_essence"), existingFileHelper);
 
         Advancement firstRelic = Advancement.Builder.advancement()
-                .display(new DisplayInfo(new ItemStack(ItemInit.ORACLE_OF_TRUE_SIGHT.get()),
+                .display(new DisplayInfo(new ItemStack(ItemInit.ORACLE_OF_TRUE_VISION.get()),
                         Component.literal("Remnants of the Ancients"), Component.literal("Aquire your first relic"),
                         null, FrameType.TASK,
                         true, true, false))

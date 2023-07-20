@@ -22,7 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ItemInit.ESSENCE_OF_TOUGHNESS);
         simpleItem(ItemInit.ESSENCE_OF_EXPERIENCE);
         simpleItem(ItemInit.SHIELD_OF_RESILIENCE);
-        simpleItem(ItemInit.ORACLE_OF_TRUE_SIGHT);
+        simpleItem(ItemInit.ORACLE_OF_TRUE_VISION);
         simpleItem(ItemInit.NECKLACE_OF_SILENCE);
         simpleItem(ItemInit.HEART_OF_VIVIDNESS);
     }
